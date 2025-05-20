@@ -81,7 +81,7 @@ fun Application.configureDatabases() {
 private const val MONGO_DATABASE_NAME = "myDatabase"
 
 fun Application.connectToMongoDB(): MongoDatabase {
-    val uri = "mongodb+srv://bredfen:yEQtS6Cj9vfhlIJr@cluster0.vyzlr8s.mongodb.net/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.0"
+    val uri = "mongodb://bredfen:yEQtS6Cj9vfhlIJr@cluster0.vyzlr8s.mongodb.net/?directConnection=true&serverSelectionTimeoutMS=2000&"
 
     println("Connecting to MongoDB at URI: $uri")
     val mongoClient = MongoClients.create(uri)
