@@ -50,4 +50,6 @@ dependencies {
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
     testImplementation("org.slf4j:slf4j-simple:2.0.13")
+    testImplementation("de.flapdoodle.embed:de.flapdoodle.embed.mongo:4.7.1")
+
 }

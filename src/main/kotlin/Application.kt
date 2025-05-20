@@ -10,9 +10,13 @@ fun main() {
 }
 
 fun Application.module() {
-    configureSecurity()
-    configureSerialization()
-    configureHTTP()
-    configureDatabases()
-    configureRouting()
+
+        configureSecurity()
+        configureSerialization()
+        configureHTTP()
+        configureDatabases()
+        configureRouting()
+
+
+
 }
