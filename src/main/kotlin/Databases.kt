@@ -84,7 +84,7 @@ fun Application.connectToMongoDB(): MongoDatabase {
 
 
 
-    val uri = "mongodb://localhost:27017/"
+    val uri = "mongodb://217.198.5.4:27017/"
 
     println("Connecting to MongoDB at URI: $uri")
     val mongoClient = MongoClients.create(uri)
