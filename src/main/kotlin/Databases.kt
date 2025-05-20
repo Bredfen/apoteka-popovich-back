@@ -81,7 +81,7 @@ fun Application.configureDatabases() {
 private const val MONGO_DATABASE_NAME = "myDatabase"
 
 fun Application.connectToMongoDB(): MongoDatabase {
-    val uri = "mongodb://217.198.5.4:27017"
+    val uri = "mongodb+srv://bredfen:yEQtS6Cj9vfhlIJr@cluster0.vyzlr8s.mongodb.net/"
 
     println("Connecting to MongoDB at URI: $uri")
     val mongoClient = MongoClients.create(uri)
